@@ -31,7 +31,7 @@ const BUSINESS_SETTINGS = {
    {
        id: "unique_id",
        name: "Product Name",
-       category: "Category Name", // Must match one of: "Water Lily", "Outdoor Plants", "Indoor Plants", "Creeper Plants", "Seeds"
+       category: "Category Name", // Must match one of: "Water Lily", "Flower plants", "Indoor Plants", "Creeper Plants", "Seeds"
        price: 150, // Number only, no currency symbol
        description: "Short description of the product.",
        image: "images/your-image-file.jpg",
@@ -42,85 +42,148 @@ const PRODUCTS = [
     // --- WATER LILY ---
     {
         id: "wl_01",
-        name: "Pink Water Lily",
+        name: "White water lily",
         category: "Water Lily",
-        price: 250,
-        description: "Beautiful and vibrant pink water lily, perfect for small to medium ponds.",
-        image: "images/placeholder-wl-pink.jpg",
+        price: 500,
+        description: "Beautiful and Tropical Variety white water lily, perfect for small to medium ponds.",
+        image: "images/Tropical variety water lily.jpeg",
         availability: true
     },
     {
         id: "wl_02",
-        name: "White Water Lily",
+        name: "Pink Water Lily",
         category: "Water Lily",
-        price: 220,
-        description: "Elegant white water lily that blooms in the morning and brings peace to your garden.",
-        image: "images/placeholder-wl-white.jpg",
+        price: 500,
+        description: "Elegant and Tropical variety pink water lily that blooms in the morning and brings peace to your garden.",
+        image: "images/Tropical Variety Pink water lily.jpeg",
         availability: true
     },
     {
         id: "wl_03",
-        name: "Red Water Lily",
+        name: "Brahma kamal plant",
         category: "Water Lily",
-        price: 280,
-        description: "Stunning red water lily with large, beautiful flowers.",
-        image: "images/placeholder-wl-red.jpg",
+        price: 200,
+        description: "Stunning Brahma Kamal plant.",
+        image: "images/Brahma kamal plant.jpeg",
         availability: true
     },
     {
         id: "wl_04",
         name: "Blue Water Lily",
         category: "Water Lily",
-        price: 300,
-        description: "Rare and exotic blue water lily. A true centerpiece for your water garden.",
-        image: "images/placeholder-wl-blue.jpg",
+        price: 350,
+        description: "Rare and Tropical Variety blue water lily. A true centerpiece for your water garden.",
+        image: "images/Blue water lily.jpeg",
         availability: true
     },
 
-    // --- OUTDOOR PLANTS ---
+    // --- FLOWER PLANTS ---
     {
         id: "op_01",
-        name: "Rose Plant",
-        category: "Outdoor Plants",
-        price: 150,
-        description: "Freshly bloomed rose plant with a classic fragrance.",
-        image: "images/placeholder-plant-rose.jpg",
+        name: "Flower plant 1",
+        category: "Flower plants",
+        price: 100,
+        description: "Beautiful blossoming flower plant that adds vibrant colors to any garden setting.",
+        image: "images/Flower plant 1.jpeg",
         availability: true
     },
     {
         id: "op_02",
-        name: "Hibiscus Plant",
-        category: "Outdoor Plants",
+        name: "Flower plant 2",
+        category: "Flower plants",
         price: 100,
-        description: "Large, colorful hibiscus flowers, ideal for daily prayers.",
-        image: "images/placeholder-plant-hibiscus.jpg",
+        description: "A delightful flowering plant with soft petals, perfect for brightening up outdoor spaces.",
+        image: "images/Flower plant 2.jpeg",
         availability: true
     },
     {
         id: "op_03",
-        name: "Jasmine Plant",
-        category: "Outdoor Plants",
-        price: 120,
-        description: "Highly fragrant jasmine plant. Perfect for garlands or home decor.",
-        image: "images/placeholder-plant-jasmine.jpg",
+        name: "Flower plant 3",
+        category: "Flower plants",
+        price: 100,
+        description: "Gorgeous and hardy flower plant that brings a touch of elegance to your home.",
+        image: "images/Flower plant 3.jpeg",
         availability: true
     },
     {
         id: "op_04",
-        name: "Marigold Plant",
-        category: "Outdoor Plants",
-        price: 80,
-        description: "Bright orange and yellow marigolds, great for festivals and decorations.",
-        image: "images/placeholder-plant-marigold.jpg",
+        name: "Flower plant 4",
+        category: "Flower plants",
+        price: 100,
+        description: "A charming seasonal bloomer that attracts butterflies and adds life to your garden.",
+        image: "images/Flower plant 4.jpeg",
         availability: true
     },
     {
         id: "op_05",
-        name: "Bougainvillea Plant",
-        category: "Outdoor Plants",
-        price: 180,
-        description: "Vibrant and hardy bougainvillea perfect for sunny outdoor spots.",
-        image: "images/placeholder-plant-bougainvillea.jpg",
+        name: "Flower plant 5",
+        category: "Flower plants",
+        price: 100,
+        description: "Stunning ornamental flower plant, ideal for balcony pots and garden borders.",
+        image: "images/Flower plant 5.jpeg",
+        availability: true
+    },
+    {
+        id: "op_06",
+        name: "Flower plant 6",
+        category: "Flower plants",
+        price: 100,
+        description: "A radiant flower plant that requires minimal care while offering maximum beauty.",
+        image: "images/Flower plant 6.jpeg",
+        availability: true
+    },
+    {
+        id: "op_07",
+        name: "Flower plant 7",
+        category: "Flower plants",
+        price: 100,
+        description: "Exquisite petals and lush foliage make this flower plant a garden favorite.",
+        image: "images/Flower plant 7.jpeg",
+        availability: true
+    },
+    {
+        id: "op_08",
+        name: "Flower plant 8",
+        category: "Flower plants",
+        price: 100,
+        description: "A lovely blossoming plant that thrives in sunlight and spreads joy.",
+        image: "images/Flower plant 8.jpeg",
+        availability: true
+    },
+    {
+        id: "op_09",
+        name: "Wax Rose plant",
+        category: "Flower plants",
+        price: 150,
+        description: "Beautiful Wax Rose plant with glossy leaves and delicate, long-lasting blooms.",
+        image: "images/wax Rose plant .jpeg",
+        availability: true
+    },
+    {
+        id: "op_10",
+        name: "lemon vine plant",
+        category: "Flower plants",
+        price: 100,
+        description: "A trailing lemon vine plant known for its striking foliage and refreshing aura.",
+        image: "images/lemon vine plant.jpeg",
+        availability: true
+    },
+    {
+        id: "op_11",
+        name: "Kasturi tumeric plant",
+        category: "Flower plants",
+        price: 100,
+        description: "Herbal plant known for its beautiful foliage and traditional uses.",
+        image: "images/Kasturi tumeric plant.jpeg",
+        availability: true
+    },
+    {
+        id: "op_12",
+        name: "Black tumeric plant",
+        category: "Flower plants",
+        price: 100,
+        description: "Rare Herbal plant with distinctive dark foliage and unique medicinal properties.",
+        image: "images/black tumeric plant.jpeg",
         availability: true
     },
 
@@ -129,150 +192,132 @@ const PRODUCTS = [
         id: "ip_01",
         name: "Money Plant",
         category: "Indoor Plants",
-        price: 120,
+        price: 80,
         description: "Easy to care for indoor creeper that brings good luck.",
-        image: "images/placeholder-plant-money.jpg",
+        image: "images/Money plant .jpeg",
         availability: true
     },
     {
         id: "ip_02",
-        name: "Snake Plant",
+        name: "Indoor plant 1",
         category: "Indoor Plants",
-        price: 200,
-        description: "Excellent air-purifying indoor plant requiring low maintenance.",
-        image: "images/placeholder-plant-snake.jpg",
-        availability: true
+        price: 100,
+        description: "A gorgeous shade-loving indoor plant that perfectly complements any interior decor.",
+        image: "images/Indoor plant 1.jpeg",
+        availability: false
     },
     {
         id: "ip_03",
-        name: "Peace Lily",
+        name: "Indoor plant 2",
         category: "Indoor Plants",
-        price: 250,
-        description: "Elegant indoor plant with beautiful white flowers and dark green leaves.",
-        image: "images/placeholder-plant-peacelily.jpg",
+        price: 100,
+        description: "Elegant houseplant that brings a calming touch of nature to your desk or living room.",
+        image: "images/Indoor plant 2.jpeg",
         availability: true
     },
     {
         id: "ip_04",
-        name: "Spider Plant",
+        name: "Indoor plant 3",
         category: "Indoor Plants",
-        price: 150,
-        description: "Popular indoor plant with cascading green and white striped leaves.",
-        image: "images/placeholder-plant-spider.jpg",
+        price: 100,
+        description: "Vibrant indoor foliage plant, great for purifying the air and brightening up dark corners.",
+        image: "images/Indoor plant 3.jpeg",
         availability: true
     },
     {
         id: "ip_05",
-        name: "Aloe Vera",
+        name: "Indoor plant 4",
         category: "Indoor Plants",
         price: 100,
-        description: "Useful medicinal plant that thrives indoors with bright light.",
-        image: "images/placeholder-plant-aloe.jpg",
+        description: "A stunning and resilient indoor plant that thrives even with minimal watering.",
+        image: "images/Indoor plant 4.jpeg",
         availability: true
     },
-
+    {
+        id: "ip_06",
+        name: "Indoor plant 5",
+        category: "Indoor Plants",
+        price: 100,
+        description: "Beautiful broad-leafed indoor plant that makes a fantastic statement piece for any room.",
+        image: "images/Indoor plant 5.jpeg",
+        availability: true
+    },
+    {
+        id: "ip_07",
+        name: "Indoor plant 6",
+        category: "Indoor Plants",
+        price: 100,
+        description: "A lush, green indoor companion that is incredibly easy to grow and maintain.",
+        image: "images/Indoor plant 6.jpeg",
+        availability: true
+    },
+    {
+        id: "ip_08",
+        name: "Indoor plant 7",
+        category: "Indoor Plants",
+        price: 100,
+        description: "Charming tropical indoor plant designed to add a splash of color to your indoor oasis.",
+        image: "images/Indoor plant 7.jpeg",
+        availability: true
+    },
+    {
+        id: "ip_09",
+        name: "Indoor plant 8",
+        category: "Indoor Plants",
+        price: 100,
+        description: "An aesthetic and hardy houseplant that creates a relaxing and fresh atmosphere.",
+        image: "images/Indoor plant 8.jpeg",
+        availability: true
+    },
     // --- CREEPER PLANTS ---
     {
         id: "cp_01",
-        name: "Money Plant Creeper",
+        name: "Climbing Rose creeper plant",
         category: "Creeper Plants",
         price: 150,
-        description: "Lush trailing money plant, perfect for hanging baskets or climbing moss poles.",
-        image: "images/placeholder-creeper-money.jpg",
+        description: "A breathtaking climbing rose creeper that produces stunning blooms and elegantly covers trellises.",
+        image: "images/Climbing Rose creeper plant.jpeg",
         availability: true
     },
-    {
-        id: "cp_02",
-        name: "Bougainvillea",
-        category: "Creeper Plants",
-        price: 250,
-        description: "Stunning blooming creeper that thrives in bright sunshine.",
-        image: "images/placeholder-creeper-bougainvillea.jpg",
-        availability: true
-    },
-    {
-        id: "cp_03",
-        name: "Jasmine Creeper",
-        category: "Creeper Plants",
-        price: 200,
-        description: "Fragrant climbing jasmine that creates a beautiful blooming wall.",
-        image: "images/placeholder-creeper-jasmine.jpg",
-        availability: true
-    },
-    {
-        id: "cp_04",
-        name: "Rangoon Creeper",
-        category: "Creeper Plants",
-        price: 220,
-        description: "Vibrant creeper with beautiful clusters of red and pink fragrant flowers.",
-        image: "images/placeholder-creeper-rangoon.jpg",
-        availability: true
-    },
-    {
-        id: "cp_05",
-        name: "Morning Glory",
-        category: "Creeper Plants",
-        price: 180,
-        description: "Fast-growing creeper with beautiful blue and purple trumpet-shaped flowers.",
-        image: "images/placeholder-creeper-morningglory.jpg",
-        availability: true
-    },
+
 
     // --- SEEDS ---
     {
         id: "sd_01",
-        name: "Rose Seeds",
+        name: "Star senea flower Seeds",
         category: "Seeds",
-        price: 80,
-        description: "Premium rose seeds for growing your own beautiful roses.",
-        image: "images/placeholder-seed-rose.jpg",
+        price: 50,
+        description: "Premium Star Senea seeds for growing uniquely shaped, beautiful star-like flowers.",
+        image: "images/Star senea flower seeds.jpeg",
         availability: true
     },
     {
         id: "sd_02",
-        name: "Marigold Seeds",
+        name: "Marigold Flower Seeds",
         category: "Seeds",
-        price: 50,
-        description: "Easy-to-grow marigold seeds, perfect for beginners.",
-        image: "images/placeholder-seed-marigold.jpg",
+        price: 70,
+        description: "High-quality Marigold seeds to bring bright, golden-yellow blooms to your home garden.",
+        image: "images/Mari gold flower seeds.jpeg",
         availability: true
     },
     {
         id: "sd_03",
-        name: "Sunflower Seeds",
+        name: "Flower seeds 1",
         category: "Seeds",
-        price: 60,
-        description: "Giant sunflower seeds that grow tall and bright.",
-        image: "images/placeholder-seed-sunflower.jpg",
+        price: 70,
+        description: "A carefully selected variety of premium flower seeds guaranteed to yield beautiful, colorful blooms.",
+        image: "images/Flower seeds 1.jpeg",
         availability: true
     },
     {
         id: "sd_04",
-        name: "Hibiscus Seeds",
+        name: "Flower seeds 2",
         category: "Seeds",
         price: 70,
-        description: "Quality hibiscus seeds for a colorful garden.",
-        image: "images/placeholder-seed-hibiscus.jpg",
+        description: "Excellent quality mixed flower seeds that are easy to sow and bring vibrant life to your garden.",
+        image: "images/Flower seeds 2.jpeg",
         availability: true
     },
-    {
-        id: "sd_05",
-        name: "Flower Mix Seeds",
-        category: "Seeds",
-        price: 90,
-        description: "A lovely mix of easy-to-grow seasonal flower seeds.",
-        image: "images/placeholder-seed-mix.jpg",
-        availability: true
-    },
-    {
-        id: "sd_06",
-        name: "Vegetable Seeds",
-        category: "Seeds",
-        price: 80,
-        description: "Assortment of common vegetable seeds for your home garden.",
-        image: "images/placeholder-seed-veg.jpg",
-        availability: true
-    }
 ];
 
 
@@ -438,7 +483,7 @@ function setupEventListeners() {
     // Cart Modals
     const openCartBtn = document.getElementById('open-cart');
     if (openCartBtn) openCartBtn.addEventListener('click', openCart);
-    
+
     const closeCartBtn = document.getElementById('close-cart');
     if (closeCartBtn) closeCartBtn.addEventListener('click', closeCart);
 
@@ -653,7 +698,7 @@ window.openProductModal = function (productId) {
 
     // Populate modal
     const imgEl = document.getElementById('pm-img');
-    imgEl.onerror = function () { this.onerror=null; this.src = 'https://via.placeholder.com/500x500.png?text=Image+Coming+Soon'; };
+    imgEl.onerror = function () { this.onerror = null; this.src = 'https://via.placeholder.com/500x500.png?text=Image+Coming+Soon'; };
     imgEl.src = product.image;
 
     document.getElementById('pm-cat').textContent = product.category;
